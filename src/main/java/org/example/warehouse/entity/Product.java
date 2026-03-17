@@ -21,5 +21,4 @@ public class Product {
     @ManyToOne
     @JoinColumn(name = "warehouse_id")
     private Warehouse warehouse;
-
 }
