@@ -1,11 +1,11 @@
-package com.example.warehouse.controller;
+package org.example.warehouse.controller;
 
-import com.example.warehouse.entity.Product;
-import com.example.warehouse.entity.Purchase;
-import com.example.warehouse.entity.Warehouse;
-import com.example.warehouse.repository.ProductRepository;
-import com.example.warehouse.repository.PurchaseRepository;
-import com.example.warehouse.repository.WarehouseRepository;
+import org.example.warehouse.entity.Product;
+import org.example.warehouse.entity.Purchase;
+import org.example.warehouse.entity.Warehouse;
+import org.example.warehouse.repository.ProductRepository;
+import org.example.warehouse.repository.PurchaseRepository;
+import org.example.warehouse.repository.WarehouseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

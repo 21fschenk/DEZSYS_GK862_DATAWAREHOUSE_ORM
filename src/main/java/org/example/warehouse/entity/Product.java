@@ -1,8 +1,9 @@
-package com.example.warehouse.entity;
+package org.example.warehouse.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.example.warehouse.entity.Warehouse;
 
 @Setter
 @Getter

@@ -1,4 +1,4 @@
-package org.example.warehouse.repository;
+package org.example.warehouse;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
