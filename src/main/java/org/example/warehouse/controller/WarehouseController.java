@@ -63,19 +63,17 @@ public class WarehouseController {
     public Warehouse updateWarehouse(@PathVariable String warehouseID,
                                      @RequestBody Warehouse updatedWarehouse) {
 
+        // Nutze findByWarehouseID statt findById
         Warehouse warehouse = warehouseRepository
-                .findById(warehouseID)
+                .findByWarehouseID(warehouseID)
                 .orElse(null);
 
         if (warehouse != null) {
-
             warehouse.setWarehouseName(updatedWarehouse.getWarehouseName());
             warehouse.setWarehouseAddress(updatedWarehouse.getWarehouseAddress());
             warehouse.setWarehouseCity(updatedWarehouse.getWarehouseCity());
-
             return warehouseRepository.save(warehouse);
         }
-
         return null;
     }
 
