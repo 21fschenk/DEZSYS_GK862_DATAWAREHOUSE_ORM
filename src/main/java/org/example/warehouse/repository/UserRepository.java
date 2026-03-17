@@ -1,4 +1,4 @@
-package org.example;
+package org.example.warehouse.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
